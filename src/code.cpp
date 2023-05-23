@@ -1,5 +1,5 @@
-#include <cpp11.hpp>
 #include <cpp11/doubles.hpp>
+#include <cpp11/matrix.hpp>
 
 using namespace cpp11;
 
@@ -22,7 +22,7 @@ using namespace cpp11;
     writable::doubles_matrix<> Acopy(N, N);
 
     for (int i = 0; i < N; i++)
-    {        
+    {
         for (int j = 0; j < N; j++)
         {
             Acopy(i, j) = A(i, j);
@@ -111,7 +111,7 @@ using namespace cpp11;
     // writable::doubles_matrix<> Acopy(N1,N1);
 
     // for (int i = 0; i < N1; i++)
-    // {        
+    // {
     //     for (int j = 0; j < N1; j++)
     //     {
     //         Acopy(i, j) = A(i, j);
@@ -121,7 +121,7 @@ using namespace cpp11;
     // doubles_matrix<> Ainv = invert_matrix_(Acopy);
 
     // I don´t need to create a copy in this case
-    
+
     doubles_matrix<> Ainv = invert_matrix_(A);
 
     // Multiply Ainv by b

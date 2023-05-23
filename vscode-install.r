@@ -2,5 +2,5 @@
 clean_dll()
 cpp_register()
 document()
-install()
+# install()
 load_all()
