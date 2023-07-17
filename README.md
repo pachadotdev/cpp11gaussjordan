@@ -1,6 +1,8 @@
 
 # cpp11gaussjordan
 
+**All the Cpp11 + R examples were moved to https://github.com/pachadotdev/cpp11-r-examples**
+
 <!-- badges: start -->
 <!-- badges: end -->
 
